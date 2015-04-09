@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mozaico</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/mozaico.css">
+
+</head>
+<body>
+	<table id="mozaico"></table>
+
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/mozaico.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#mozaico").mozaico({
+				imagens: ["imagens/300x250.gif", "imagens/350x150.gif", "imagens/350x250.gif", 
+				"imagens/300x250.gif", "imagens/350x150.gif", "imagens/350x250.gif",
+				"imagens/300x250.gif", "imagens/350x150.gif", "imagens/350x250.gif",
+				"imagens/300x250.gif", "imagens/350x150.gif", "imagens/350x250.gif"]
+			});
+		});
+	</script>
+</body>
+</html>
