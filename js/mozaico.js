@@ -1,4 +1,5 @@
 (function( $ ){
+	//inicializacao do plugin
     $.fn.mozaico = function( opcoes ) {
 
     	var padrao = {
